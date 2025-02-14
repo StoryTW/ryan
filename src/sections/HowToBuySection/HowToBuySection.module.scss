@@ -1,0 +1,85 @@
+.root {
+  background-color: #433123;
+  position: relative;
+}
+
+.lion1 {
+  position: absolute;
+  top: 50%;
+  width: 520px;
+  height: 520px;
+  transform: translateY(-50%);
+  left: 2%;
+}
+
+
+.container {
+  padding: 34px 16px 88px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: minmax(100px, 1032px);
+
+  @include respond(tabletL) {
+    padding: 34px 16px 88px;
+  }
+
+  @include respond(mobileL) {
+    padding: 34px 16px 88px;
+  }
+}
+
+.border {
+  border: 6px solid black;
+  padding: 7px;
+  background-color: #eda229;
+  position: relative;
+}
+
+.card {
+  border-radius: 20px;
+  border: 6px solid black;
+  overflow: hidden;
+  padding: 26px 20px 58px;
+  background-image: url('/images/card-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  background-position: center center;
+}
+
+.wrp {
+  padding: 26px 20px 58px;
+}
+
+.text {
+  font-family: var(--font-geist-sans);
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 150%;
+
+  @include respond(tabletL) {
+    font-size: 22px;
+    line-height: 175%;
+  }
+}
+
+.btn {
+  position: absolute;
+  background-image: url('/images/howtobuy.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 300px;
+  height: 136px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+
+  left: 50%;
+  bottom: -65px;
+  transform: translateX(-50%);
+
+  @include respond(mobileL) {
+    font-size: 30px;
+  }
+}
