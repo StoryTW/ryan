@@ -1,50 +1,45 @@
-'use client';
-
-import React, { useState } from 'react';
+import React from 'react';
 import styles from './Header.module.scss';
-import Logo from '@/assets/images/icons/logo.svg';
-import { SOCIALS } from './data';
+import Image from 'next/image';
 import Link from 'next/link';
-import IconBurger from '@/assets/images/icons/burger.svg';
-import IconClose from '@/assets/images/icons/close.svg';
 
 export const Header = () => {
-  const [isOpenMenu, setIsOpenMenu] = useState<boolean>(false);
   return (
-    <header className={styles.header}>
-      <div className={styles.innerHeader}>
-        <div className={styles.left}>
-          <Logo />
-          <h1 className={styles.title}>ZORG NATION</h1>
-        </div>
-        <div className={styles.socials}>
-          {SOCIALS.map((social, i) => (
-            <Link href={social.href} key={i}>
-              {social.icon}
+    <header className={styles.root}>
+      <div className={styles.wrapper}>
+        <div className={styles.content}>
+          <div className={styles.privacy}>
+            <Link href={'/'} target='_blank'>
+              Privacy Policy
             </Link>
-          ))}
-        </div>
-        <Link href={'/'} className={styles.button}>
-          BUY $ZORG
-        </Link>
-        <button className={styles.burger} onClick={() => setIsOpenMenu((props) => !props)}>
-          {!isOpenMenu ? <IconBurger /> : <IconClose />}
-        </button>
-      </div>
-      {isOpenMenu && (
-        <div className={styles.menu}>
-          <div className={styles.socials}>
-            {SOCIALS.map((social, i) => (
-              <Link href={social.href} key={i}>
-                {social.icon}
-              </Link>
-            ))}
+            <Link href={'/'} target='_blank'>
+              Terms of Use
+            </Link>
           </div>
-          <Link href={'/'} className={styles.button}>
-            BUY $ZORG
+
+          <div className={styles.logo}>
+            <Image src={'/images/Logo.svg'} width={202} height={70} alt='logo' />
+          </div>
+
+          <div className={styles.socials}>
+            <Link href={'https://x.com/RyanTheLionCoin'} target='_blank' className={styles.btn}>
+              <Image src={'/images/twitter.svg'} width={48} height={48} alt='twitter' />
+            </Link>
+
+            <Link href={'https://t.me/RyanTheLionBNB'} target='_blank' className={styles.btn}>
+              <Image src={'/images/tg.svg'} width={48} height={48} alt='tg' />
+            </Link>
+          </div>
+        </div>
+        <div className={styles.privacy2}>
+          <Link href={'/'} target='_blank'>
+            Privacy Policy
+          </Link>
+          <Link href={'/'} target='_blank'>
+            Terms of Use
           </Link>
         </div>
-      )}
+      </div>
     </header>
   );
 };
