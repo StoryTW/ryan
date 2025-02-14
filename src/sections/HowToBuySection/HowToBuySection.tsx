@@ -23,31 +23,20 @@ export default function HowToBuySection() {
           </div>
 
           <div className={styles.btn}>HOW TO BUY?</div>
+
+          <div className={styles.lion1}>
+            <Image src={'/images/lion-1.png'} alt='lion-1' fill />
+          </div>
+
+          <div className={styles.lion2}>
+            <Image src={'/images/lion-2.png'} alt='lion-1' fill />
+          </div>
+
+          {/* <div className={styles.lion3}>
+            <Image src={'/images/lion-3.png'} alt='lion-1' fill />
+          </div> */}
         </div>
       </div>
-      <div className={styles.lion1}>
-        <Image
-          src={'/images/lion-1.png'}
-          alt='lion-1'
-          fill
-        />
-      </div>
-
-      {/* <div className={styles.lion2}>
-        <Image
-          src={'/images/lion-2.png'}
-          alt='lion-1'
-          fill
-        />
-      </div>
-
-      <div className={styles.lion3}>
-        <Image
-          src={'/images/lion-3.png'}
-          alt='lion-1'
-          fill
-        />
-      </div> */}
     </section>
   );
 }

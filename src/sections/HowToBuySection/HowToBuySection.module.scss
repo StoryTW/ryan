@@ -1,29 +1,19 @@
 .root {
   background-color: #433123;
-  position: relative;
 }
-
-.lion1 {
-  position: absolute;
-  top: 50%;
-  width: 520px;
-  height: 520px;
-  transform: translateY(-50%);
-  left: 2%;
-}
-
 
 .container {
-  padding: 34px 16px 88px;
+  padding: 34px 122px 88px;
   display: grid;
   justify-content: center;
   grid-template-columns: minmax(100px, 1032px);
+  overflow: hidden;
 
   @include respond(tabletL) {
-    padding: 34px 16px 88px;
+    padding: 34px 122px 88px;
   }
 
-  @include respond(mobileL) {
+  @include respond(tabletSM) {
     padding: 34px 16px 88px;
   }
 }
@@ -33,6 +23,65 @@
   padding: 7px;
   background-color: #eda229;
   position: relative;
+}
+
+.lion1 {
+  position: absolute;
+  top: 50%;
+  width: 265px;
+  height: 335px;
+  transform: translateY(-50%);
+  left: -35%;
+
+  @include respond(tabletL) {
+    width: 208px;
+    height: 255px;
+    left: -32%;
+  }
+
+  @include respond(mobileL) {
+    width: 148px;
+    height: 165px;
+    left: -25%;
+  }
+}
+
+.lion2 {
+  position: absolute;
+  top: -50px;
+  width: 229px;
+  height: 270px;
+  right: -35%;
+
+  @include respond(tabletL) {
+    right: -50%;
+  }
+
+  @include respond(mobileL) {
+    width: 148px;
+    height: 165px;
+    top: -30px;
+    right: -15%;
+  }
+}
+
+.lion2 {
+  position: absolute;
+  top: -30px;
+  width: 229px;
+  height: 270px;
+  right: -35%;
+
+  @include respond(tabletL) {
+    right: -50%;
+  }
+
+  @include respond(mobileL) {
+    width: 148px;
+    height: 165px;
+    top: -30px;
+    right: -15%;
+  }
 }
 
 .card {
