@@ -1,0 +1,61 @@
+.root {
+  background: #560e42;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0px 128px;
+  width: 100%;
+  margin: 0 auto;
+
+  @include respond(tabletL) {
+    padding: 0px 64px;
+  }
+
+  @include respond(mobileL) {
+    padding: 0px 48px;
+  }
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 24px 0px;
+  flex-wrap: wrap;
+
+  @include respond(mobileL) {
+    padding: 18px 0px;
+  }
+}
+
+.btn {
+  cursor: pointer;
+  padding: 16px 36px;
+  background: white;
+  @include CreatoDisplay_24_900;
+  border-radius: 12px;
+  color: #560e42;
+  text-transform: uppercase;
+  @include transition;
+
+  &:hover {
+    opacity: 0.7;
+  }
+
+  &:active {
+    opacity: 0.7;
+  }
+
+  &:focus {
+    background: white;
+    color: #560e42;
+  }
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
