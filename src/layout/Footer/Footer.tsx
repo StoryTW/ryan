@@ -1,21 +1,17 @@
 import React from 'react';
 import styles from './Footer.module.scss';
-// import { Socials } from '@/components/Socials/Socials';
-// import { Logo } from '@/components/Logo/Logo';
+import Image from 'next/image';
 
 export const Footer = () => {
   return (
     <footer className={styles.root}>
       <div className={styles.container}>
-        <div className={styles.content}>
-          <div className={styles.left}>
-            {/* <Logo />
-            <Socials /> */}
-          </div>
-          <button type='button' tabIndex={-1} className={styles.btn}>
-            BUY $Zorg
-          </button>
-        </div>
+        <p>
+          $RYAN is a meme coin with no intrinsic value or expectation of financial return. $RYAN is
+          completely useless and for entertainment purposes only. By purchasing $RYAN, you agree
+          that you have seen this disclaimer.
+        </p>
+        <Image src={'/images/stickerFooter.png'} width={385} height={345} alt='' />
       </div>
     </footer>
   );

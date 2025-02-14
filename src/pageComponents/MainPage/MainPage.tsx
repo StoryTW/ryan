@@ -9,6 +9,7 @@ export const MainPage = () => {
     <main>
       <MeetSection />
       <InfoSection />
+      <HowToBuySection />
     </main>
-  );
-};
+)
+}
