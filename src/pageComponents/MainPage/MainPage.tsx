@@ -1,7 +1,10 @@
-import React from 'react'
+import HowToBuySection from '@/sections/HowToBuySection/HowToBuySection';
+import React from 'react';
 
 export const MainPage = () => {
   return (
-    <div>MainPage</div>
-  )
-}
+    <div>
+      <HowToBuySection />
+    </div>
+  );
+};
