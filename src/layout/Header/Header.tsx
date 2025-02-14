@@ -9,10 +9,10 @@ export const Header = () => {
       <div className={styles.wrapper}>
         <div className={styles.content}>
           <div className={styles.privacy}>
-            <Link href={'/'} target='_blank'>
+            <Link href={'/'}>
               Privacy Policy
             </Link>
-            <Link href={'/'} target='_blank'>
+            <Link href={'/'}>
               Terms of Use
             </Link>
           </div>
@@ -32,10 +32,10 @@ export const Header = () => {
           </div>
         </div>
         <div className={styles.privacy2}>
-          <Link href={'/'} target='_blank'>
+          <Link href={'/'}>
             Privacy Policy
           </Link>
-          <Link href={'/'} target='_blank'>
+          <Link href={'/'}>
             Terms of Use
           </Link>
         </div>
