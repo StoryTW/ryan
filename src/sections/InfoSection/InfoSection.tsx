@@ -1,8 +1,8 @@
 import React from 'react';
-import styles from './HowToBuySection.module.scss';
+import styles from './InfoSection.module.scss';
 import Image from 'next/image';
 
-export default function HowToBuySection() {
+export default function InfoSection() {
   return (
     <section className={styles.root}>
       <div className={styles.container}>
@@ -29,12 +29,12 @@ export default function HowToBuySection() {
           </div>
 
           <div className={styles.lion2}>
-            <Image src={'/images/lion-2.png'} alt='lion-1' fill />
+            <Image src={'/images/lion-2.png'} alt='lion-2' fill />
           </div>
 
-          {/* <div className={styles.lion3}>
-            <Image src={'/images/lion-3.png'} alt='lion-1' fill />
-          </div> */}
+          <div className={styles.lion3}>
+            <Image src={'/images/lion-3.png'} alt='lion-3' fill />
+          </div>
         </div>
       </div>
     </section>

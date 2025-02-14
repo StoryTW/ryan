@@ -1,12 +1,12 @@
 import dynamic from 'next/dynamic';
 import React from 'react';
 
-const HowToBuySection = dynamic(() => import('@/sections/HowToBuySection/HowToBuySection'));
+const InfoSection = dynamic(() => import('@/sections/InfoSection/InfoSection'));
 
 export const MainPage = () => {
   return (
     <main>
-      <HowToBuySection />
+      <InfoSection />
     </main>
   );
 };
