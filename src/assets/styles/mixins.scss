@@ -6,6 +6,12 @@
     }
   }
 
+  @if $breakpoint==laptop1650 {
+    @media only screen and (max-width: 1650px) {
+      @content;
+    }
+  }
+
   @if $breakpoint==laptopXG {
     @media only screen and (max-width: 1560px) {
       @content;
@@ -154,7 +160,6 @@
   font-weight: 900;
   line-height: 135%;
 }
-
 
 @mixin CreatoDisplay_48_700 {
   font-size: 48px;

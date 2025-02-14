@@ -1,0 +1,23 @@
+.swiper-button-next,
+.swiper-button-prev {
+  background: url('/images/Number.png');
+  background-size: cover;
+  padding: 40px;
+  color: black;
+  top: 200px;
+  @media (max-width: 380px) {
+    top: 250px;
+  }
+}
+
+.swiper-button-next {
+  left: 100px;
+}
+
+.swiper {
+  padding-bottom: 100px;
+
+  @media (max-width: 380px) {
+    padding-bottom: 150px;
+  }
+}
