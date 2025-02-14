@@ -4,6 +4,7 @@ import localFont from 'next/font/local';
 import '@/assets/styles/index.scss';
 import { Header } from '@/layout/Header/Header';
 import { Footer } from '@/layout/Footer/Footer';
+import FaviconPng from '/public/favicon.jpg';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -26,12 +27,12 @@ const lonelyCoffee = localFont({
 });
 
 export const metadata: Metadata = {
-  title: 'RYAN',
-  description: 'RYAN',
-  // icons: {
-  //   icon: FaviconPng.src,
-  //   apple: FaviconPng.src,
-  // },
+  title: 'Ryan the Lion',
+  description: 'Ryan the Lion',
+  icons: {
+    icon: FaviconPng.src,
+    apple: FaviconPng.src,
+  },
 };
 
 export default function RootLayout({
