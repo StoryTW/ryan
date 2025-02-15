@@ -12,7 +12,7 @@ export default function InfoSection() {
               <div className={styles.text}>
                 Ryan the Lion, with his calm demeanor and dependable nature, is ready to lead the
                 pride into new horizons. Now, he's taking his first brave steps into the vibrant
-                world of Solana with $RYAN, a memecoin that captures his playful spirit, sense of
+                world of BNB with $RYAN, a memecoin that captures his playful spirit, sense of
                 unity, and love for adventure.
                 <br />
                 <br />
