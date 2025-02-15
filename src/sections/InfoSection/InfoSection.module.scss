@@ -82,7 +82,14 @@
     width: 148px;
     height: 185px;
     bottom: -90px;
-    right: -15%;
+    right: -22%;
+  }
+
+  @include respond(mobile375) {
+    width: 148px;
+    height: 185px;
+    bottom: -90px;
+    right: -30%;
   }
 }
 

@@ -18,7 +18,7 @@ export const Header = () => {
           </div>
 
           <div className={styles.logo}>
-            <Image src={'/images/Logo.svg'} width={202} height={70} alt='logo' />
+            <Image src={'/images/Logo.svg'} width={201.67} height={69.73} alt='logo' />
           </div>
 
           <div className={styles.socials}>
