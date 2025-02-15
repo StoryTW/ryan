@@ -12,16 +12,6 @@
   }
 }
 
-.explorar {
-  position: absolute;
-  bottom: 200px;
-  right: 2%;
-
-  @include respond(tabletL) {
-    display: none;
-  }
-}
-
 .container {
   padding: 24px 64px 176px;
 
@@ -65,15 +55,42 @@
   }
 }
 
+.explorar {
+  background: url('/images/explore.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 310px;
+  height: 159px;
+  position: absolute;
+  bottom: 200px;
+  right: 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+
+  @include respond(tabletL) {
+    display: none;
+  }
+}
+
 .explorar2 {
   display: none;
 
   @include respond(tabletL) {
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('/images/explore.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     position: absolute;
+    width: 174px;
+    height: 89px;
     left: 50%;
     bottom: -45px;
     transform: translateX(-50%);
+    font-size: 22px;
   }
 }
 

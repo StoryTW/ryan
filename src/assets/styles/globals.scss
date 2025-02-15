@@ -66,6 +66,7 @@ body {
   color: white;
   scroll-behavior: smooth;
   scrollbar-gutter: stable;
+  @include noScrollBar;
 }
 
 dl,

@@ -11,24 +11,24 @@ import './style.css';
 
 const data = [
   {
-    title: 'Create Wallet',
+    title: 'CREATE WALLET',
     description:
-      'Download Phantom or your wallet of choice from the app store or Google Play for free. Desktop users, download the Google Chrome extension by going to Phantom.',
+      'Download MetaMask or your wallet of choice from the App Store or Google Play for free. Desktop users can install the Google Chrome extension by going to MetaMask’s website.',
   },
   {
-    title: ' GET SOME SOL',
+    title: 'GET SOME BNB',
     description:
-      'Have SOL in your wallet to switch to $RYAN. If you don’t have any SOL, you can buy directly on Phantom, transfer from another wallet, or buy on another exchange and send it to your wallet.',
+      'Have BNB in your wallet to swap for $RYAN. If you don’t have any BNB, you can buy it directly on MetaMask, transfer from another wallet, or purchase from an exchange and send it to your wallet.',
   },
   {
-    title: 'GO TO JUPITER',
+    title: 'GO TO FOURMEME',
     description:
-      'Connect to Jupiter. Connect your wallet in chrome. Paste the $RYAN token address, select $RYAN, and confirm. When Phantom prompts you for a wallet signature, sign.',
+      'Go onto Fourmeme and paste the contract into the field to buy the token. Be careful of fakes!',
   },
   {
     title: 'SWAP FOR RYAN',
     description:
-      'Switch SOL for $RYAN. We have Zero taxes so you don’t need to worry about buying with a specific slippage.',
+      'Swap BNB for $RYAN on Fourmeme. We have zero taxes, but be careful to use tight slippage so the BNB MEVs don’t get you!',
   },
 ];
 

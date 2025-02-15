@@ -17,23 +17,23 @@ export default function MeetSection() {
             className={styles.roar}
           />
 
-          <Image
+          <div className={styles.explorar2}>
+            EXPLORE!
+          </div>
+
+          {/* <Image
             src={'/images/explorar2.svg'}
             alt='explorar2'
             width={174}
             height={89}
             className={styles.explorar2}
-          />
+          /> */}
         </div>
       </div>
 
-      <Image
-        src={'/images/explorar.png'}
-        alt='explorar'
-        width={310}
-        height={159}
-        className={styles.explorar}
-      />
+      <div className={styles.explorar}>
+        EXPLORE!
+      </div>
     </section>
   );
 }

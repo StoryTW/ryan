@@ -17,7 +17,7 @@ export default function InfoSection() {
                 <br />
                 <br />
                 Join the pride and embark on this wild adventure with Ryan the Lion! Let’s roar our
-                way into a new era on Solana!
+                way into a new era on BNB!
               </div>
             </div>
           </div>
