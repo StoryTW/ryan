@@ -11,7 +11,7 @@ export const Footer = () => {
           completely useless and for entertainment purposes only. By purchasing $RYAN, you agree
           that you have seen this disclaimer.
         </p>
-        <Image src={'/images/stickerFooter.png'} width={385} height={345} alt='' />
+        <Image src={'/images/stickerFooter2.png'} width={185} height={145} alt='' />
       </div>
     </footer>
   );

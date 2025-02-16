@@ -64,8 +64,8 @@ const HowToBuySection = () => {
         </div>
       </div>
       <Image
-        src={'/images/stickerHowToBuy.png'}
-        width={483}
+        src={'/images/stickerHowToBuy2.png'}
+        width={433}
         height={450}
         alt=''
         className={styles.sticker}
