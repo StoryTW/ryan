@@ -25,15 +25,15 @@ export default function InfoSection() {
           <div className={styles.btn}>HOW TO BUY?</div>
 
           <div className={styles.lion1}>
-            <Image src={'/images/lion-1.svg'} alt='lion-1' fill />
+            <Image src={'/images/lion-1-new.png'} alt='lion-1' fill />
           </div>
 
           <div className={styles.lion2}>
-            <Image src={'/images/lion-2.svg'} alt='lion-2' fill />
+            <Image src={'/images/lion-2-new.png'} alt='lion-2' fill />
           </div>
 
           <div className={styles.lion3}>
-            <Image src={'/images/lion-3.svg'} alt='lion-3' fill />
+            <Image src={'/images/lion-3-new.png'} alt='lion-3' fill />
           </div>
         </div>
       </div>
