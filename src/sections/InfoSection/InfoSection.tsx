@@ -10,14 +10,10 @@ export default function InfoSection() {
           <div className={styles.card}>
             <div className={styles.wrp}>
               <div className={styles.text}>
-                Ryan the Lion, with his calm demeanor and dependable nature, is ready to lead the
-                pride into new horizons. Now, he's taking his first brave steps into the vibrant
-                world of BNB with $RYAN, a memecoin that captures his playful spirit, sense of
-                unity, and love for adventure.
+                Ryan the Lion, with his calm demeanor and dependable nature, is ready to lead the pride into new horizons. Now, he's taking his first brave steps into the vibrant world of Solana with $RYAN, a memecoin that captures his playful spirit, sense of unity, and love for adventure.
                 <br />
                 <br />
-                Join the pride and embark on this wild adventure with Ryan the Lion! Let’s roar our
-                way into a new era on BNB!
+                Join the pride and embark on this wild journey with Ryan the Lion! Let’s roar our way into a new era on Sol via Bonk!
               </div>
             </div>
           </div>

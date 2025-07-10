@@ -12,22 +12,22 @@ const data = [
   {
     title: 'CREATE WALLET',
     description:
-      'Download MetaMask or your wallet of choice from the App Store or Google Play for free. Desktop users can install the Google Chrome extension by going to MetaMask’s website.',
+      'Download Phantom or your preferred Solana wallet from the App Store or Google Play. Desktop users can install the Phantom Chrome extension from their website.',
   },
   {
-    title: 'GET SOME BNB',
+    title: 'GET SOME SOL',
     description:
-      'Have BNB in your wallet to swap for $RYAN. If you don’t have any BNB, you can buy it directly on MetaMask, transfer from another wallet, or purchase from an exchange and send it to your wallet.',
+      'Have SOL in your wallet to swap for $RYAN. If you don’t have any SOL, you can buy it directly in your wallet, transfer from another wallet, or purchase from an exchange and send it to your Sol wallet.',
   },
   {
-    title: 'GO TO FOURMEME',
+    title: 'GO TO BONK.FUN',
     description:
-      'Go onto Fourmeme and paste the contract into the field to buy the token. Be careful of fakes!',
+      'Head over to bonk.fun and paste the $RYAN contract address into the field to find the token. Watch out for fakes!',
   },
   {
     title: 'SWAP FOR RYAN',
     description:
-      'Swap BNB for $RYAN on Fourmeme. We have zero taxes, but be careful to use tight slippage so the BNB MEVs don’t get you!',
+      'Swap SOL for $RYAN on bonk.fun. There are zero taxes, but make sure to confirm slippage settings and avoid frontrunning bots!',
   },
 ];
 
