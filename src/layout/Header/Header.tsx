@@ -26,7 +26,7 @@ export const Header = () => {
               <Image src={'/images/twitter.svg'} width={48} height={48} alt='twitter' />
             </Link>
 
-            <Link href={'https://t.me/RyanTheLionBNB'} target='_blank' className={styles.btn}>
+            <Link href={'https://t.me/RyanTheLionBonk'} target='_blank' className={styles.btn}>
               <Image src={'/images/tg.svg'} width={48} height={48} alt='tg' />
             </Link>
           </div>
