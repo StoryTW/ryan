@@ -12,7 +12,7 @@ const data = [
   {
     title: 'CREATE WALLET',
     description:
-      'Download Phantom or your preferred Solana wallet from the App Store or Google Play. Desktop users can install the Phantom Chrome extension from their website.',
+      'Download Phantom or your preferred BNB wallet from the App Store or Google Play. Desktop users can install the Metamask extension from their website.',
   },
   {
     title: 'GET SOME SOL',
@@ -22,12 +22,12 @@ const data = [
   {
     title: 'GO TO BONK.FUN',
     description:
-      'Head over to bonk.fun and paste the $RYAN contract address into the field to find the token. Watch out for fakes!',
+      'Head over to Four.Meme and paste the $RYAN contract address into the field to find the token. Watch out for fakes!',
   },
   {
     title: 'SWAP FOR RYAN',
     description:
-      'Swap SOL for $RYAN on bonk.fun. There are zero taxes, but make sure to confirm slippage settings and avoid frontrunning bots!',
+      'Swap BNB for $RYAN on Four.Meme. There are zero taxes, but make sure to confirm slippage settings and avoid frontrunning bots!',
   },
 ];
 
